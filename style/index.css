@@ -66,8 +66,20 @@ nav a {
     padding: 2% 2%;
 }
 
+.vert-arrows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cby-hro {
+    display: flex;
+    align-items: center;
+}
+
 .hero-text {
-    margin: 0 1%;
+    /* margin: 0 1%; */
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -79,10 +91,11 @@ nav a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 70%;
 }
 
-.hero img {
-    width: 70%;
+.bottom-arrow, .top-arrow img {
+    width: 174px;
 }
 
 .hero-text h2, a{
@@ -91,7 +104,7 @@ nav a {
 
 .hero-text a {
     text-decoration: none;
-    background-color: #CE724F;
+    background-color: #6B5D44;
     color: #ebe9e9;
     padding: .5% 1%;
     border-radius: 7px;
