@@ -1,1 +1,178 @@
 /* Add CSS styling here */
+@font-face {
+    font-family: 'oaxaca';
+    src: local('Oaxaca'),
+            local('oaxaca'),
+            url(Oaxaca.ttf);
+            font-weight: 100;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width:100%;
+  /*put a border around everything to see where it stops and starts*/
+    /* border:1px solid grey; */
+}
+  
+/* General Styles */
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.8rem;
+    line-height: 1.5;
+    color:#7F7045;
+    background-color:#ebe9e9;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* Header */
+
+header  {
+    display: flex;
+    align-items: center;
+    padding: 2% 2%;
+}
+
+.logo-container {
+    width: 7%;
+    margin-right: 1%;
+}
+
+.logo-container img {
+    border-radius: 50%;
+}
+
+nav {
+    padding: 2% 2%;
+    display: flex;
+    column-gap: 1%;;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #6B5D44;
+    color: #ebe9e9;
+    padding: .5% 1%;
+    border-radius: 7px;
+}
+
+/* Hero Section */
+
+.hero {
+    display: flex;
+    padding: 2% 2%;
+}
+
+.vert-arrows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cby-hro {
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    /* margin: 0 1%; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+}
+
+.hero-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+}
+
+.bottom-arrow, .top-arrow img {
+    width: 174px;
+}
+
+.hero-text h2, a{
+    margin-bottom: 3%;
+}
+
+.hero-text a {
+    text-decoration: none;
+    background-color: #6B5D44;
+    color: #ebe9e9;
+    padding: .5% 1%;
+    border-radius: 7px;
+    max-width: 200px;
+}
+
+.hero-text p {
+    padding: 0 15%;
+    
+}
+
+/* Project Gallery */ 
+
+.project-gallery {
+display: flex;
+flex-wrap: wrap;
+padding: .5% 0;
+}
+
+.project {
+    max-width: 33%;
+    margin: .5% .15%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.img-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 580px;
+    margin-bottom: 1%;
+    
+}
+
+.project-image {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+footer {
+    padding: 3% 0;
+    margin-top:  1%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h2 {
+    margin-bottom: 1%;
+}
+
+.contact-me {
+    text-decoration: none;
+    background-color: #CE724F;
+    color: #ebe9e9;
+    padding: .5% 1%;
+    border-radius: 7px;
+    max-width: 200px;
+    margin: 0 15%;
+}
+.ig-cont {
+    margin-top: 1%;
+    width: 50px;
+}
