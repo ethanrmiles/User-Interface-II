@@ -13,7 +13,7 @@
     margin: 0;
     max-width:100%;
   /*put a border around everything to see where it stops and starts*/
-    border:1px solid grey;
+    /* border:1px solid grey; */
 }
   
 /* General Styles */
@@ -86,7 +86,7 @@ nav a {
 }
 
 .hero-text h2, a{
-    margin-bottom: 1%;
+    margin-bottom: 3%;
 }
 
 .hero-text a {
@@ -138,7 +138,7 @@ object-fit: cover;
 
 footer {
     padding: 3% 0;
-    margin-top: 0 1%;
+    margin-top:  1%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -150,7 +150,7 @@ footer h2 {
     margin-bottom: 1%;
 }
 
-footer a {
+.contact-me {
     text-decoration: none;
     background-color: #CE724F;
     color: #ebe9e9;
@@ -158,4 +158,8 @@ footer a {
     border-radius: 7px;
     max-width: 200px;
     margin: 0 15%;
+}
+.ig-cont {
+    margin-top: 1%;
+    width: 50px;
 }
